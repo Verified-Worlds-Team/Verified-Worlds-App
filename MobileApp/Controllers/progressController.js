@@ -1,4 +1,4 @@
-const { Progress } = require("../models");
+const { Progress } = require("../Models");
 
 exports.getAllProgress = async (req, res) => {
   try {
@@ -36,15 +36,5 @@ exports.updateProgress = async (req, res) => {
     res.json(updatedProgress);
   } catch (err) {
     res.status(400).json({ error: err.message });
-  }
-};
-
-exports.deleteProgress = async (req, res) => {
-  try {
-    const deleted = await Progress.destroy({ where: { progressId: req.params.id } });
-    if (!deleted) return res.status(404).json({ error: "Progress not found" });
-    res.json({ message: "Progress deleted successfully" });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
   }
 };

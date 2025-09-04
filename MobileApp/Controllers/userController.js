@@ -52,7 +52,7 @@ module.exports = (sequelize, DataTypes) => {
 
   return User;
 };
-const { User } = require("../models");
+const { User } = require("../Models");
 
 // GET all users
 exports.getAllUsers = async (req, res) => {

@@ -1,4 +1,4 @@
-const { World } = require("../models");
+const { World } = require("../Models");
 
 // GET all worlds
 exports.getAllWorlds = async (req, res) => {

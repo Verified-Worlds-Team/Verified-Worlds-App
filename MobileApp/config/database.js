@@ -3,8 +3,8 @@ require('dotenv').config();
 module.exports = {
   development: {
     username: process.env.DB_USER || 'postgres',
-    password: process.env.DB_PASSWORD || 'password',
-    database: process.env.DB_NAME || 'game_verifier_dev',
+    password: process.env.DB_PASSWORD || 'Passw0rd',
+    database: process.env.DB_NAME || 'VerifiedWorldsDb',
     host: process.env.DB_HOST || '127.0.0.1',
     port: process.env.DB_PORT || 5432,
     dialect: 'postgres',
@@ -19,7 +19,7 @@ module.exports = {
   test: {
     username: process.env.DB_USER || 'postgres',
     password: process.env.DB_PASSWORD || 'Passw0rd',
-    database: process.env.DB_NAME_TEST || 'game_verifier_test',
+    database: process.env.DB_NAME_TEST || 'VerifiedWorldsDb',
     host: process.env.DB_HOST || '127.0.0.1',
     port: process.env.DB_PORT || 5432,
     dialect: 'postgres',

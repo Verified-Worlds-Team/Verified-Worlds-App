@@ -49,9 +49,8 @@ Players often fake achievements in RPG communities, making collaboration difficu
 
 ---
 
-## Submission Requirements  
 
-### Project Description (100–300 words)  
+### Project Description 
 **Verified Worlds** is a mobile app that securely verifies players’ in-game achievements via official game data or trusted proof methods. Verified progress is displayed on user profiles and leaderboards, fostering a trustworthy and collaborative gaming community while rewarding genuine players.  
 
 By eliminating fake claims, the app enables authentic teamwork and helps players find reliable teammates. The platform demonstrates the practical use of **zkTLS** for verifiable data in gaming, aligning with the hackathon’s theme of trust through verifiable information.  
@@ -72,17 +71,6 @@ By eliminating fake claims, the app enables authentic teamwork and helps players
 - Visual Studio Code  
 - GitHub  
 
-### Links  
-- **GitHub Repository:** [Insert URL]  
-- **Demo Link (Expo):** [Insert URL]  
-- **Installation Instructions (README):** [Insert URL]  
-
-### Screenshots / Media  
-- Login screen  
-- Quest list  
-- User profile with verified achievements  
-- Leaderboard  
-
 ### Problem Statement Alignment  
 **Verified Worlds** addresses trust issues in online gaming communities. By leveraging **XION’s zkTLS**, players can submit proofs for in-game achievements that cannot be faked, ensuring authentic collaboration and reliable leaderboards. This builds a trustworthy community, aligning perfectly with the hackathon’s theme of verifiable data.  
 
@@ -92,4 +80,3 @@ MIT License
 ### App (Functional Demo on XION Testnet)  
 [Insert your Expo publish URL here]  
 
----

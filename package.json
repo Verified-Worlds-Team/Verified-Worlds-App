@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.36.0",
+    "@cosmjs/encoding": "^0.36.0",
+    "@cosmjs/stargate": "^0.36.0",
+    "express-validator": "^7.2.1"
+  }
+}

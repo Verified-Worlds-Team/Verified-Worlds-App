@@ -77,6 +77,4 @@ By eliminating fake claims, the app enables authentic teamwork and helps players
 ### License  
 MIT License  
 
-### App (Functional Demo on XION Testnet)  
-[Insert your Expo publish URL here]  
 
